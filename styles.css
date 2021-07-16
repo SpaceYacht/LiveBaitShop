@@ -1,0 +1,204 @@
+body
+{
+  /* background-image: linear-gradient(#424b35, #a83b24); */
+  background-image: linear-gradient(90deg, #424b35 18%, #a83b24 96%);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* divs and lists */
+
+.navvy li
+{
+  display: inline;
+}
+
+.navvy
+{
+  font-size: 24px;
+}
+
+.livebaits li
+{
+  list-style: none;
+  display: block;
+}
+
+.coldbait li
+{
+  list-style: none;
+  display: block;
+  margin-top: 20px;
+}
+
+.baits
+{
+  display:inline-flex;
+  border: 5px solid #f9590a;
+  border-radius: 5px;
+  margin: 160px 160px 0px 160px;
+}
+
+.repair
+{
+  border: 5px solid #f9590a;
+  border-radius: 5px;
+  margin: 160px 160px 0px 160px;
+}
+
+.snacks
+{
+  border: 5px solid #f9590a;
+  border-radius: 5px;
+  margin: 160px 160px 0px 160px;
+}
+
+.columns
+{
+  border: 5px solid #f9590a;
+  border-radius: 5px;
+  margin: 160px 160px 0px 160px;
+}
+
+.locate
+{
+  border: 5px solid #f9590a;
+  border-radius: 5px;
+  margin: 160px 160px 0px 160px;
+}
+
+.vid
+{
+  margin:20px 20px 20px 20px;
+}
+
+/* Footer */
+
+footer
+{
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: #f9590a;
+  margin-top: 30px;
+}
+
+iframe
+{
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+/* Fonts */
+
+footer
+{
+  font-size: 18px;
+}
+
+.container
+{
+  font-size: 22px;
+}
+
+.columns
+{
+  font-size: 18px;
+}
+
+.baits
+{
+  font-size: 18px;
+}
+
+.repair
+{
+  font-size: 18px;
+}
+
+.snacks
+{
+  font-size: 18px;
+}
+
+
+/* links */
+
+a:link
+{
+  color: #fc8919;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited
+{
+  color: #db5c01;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover
+{
+  color: #ef9e53;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active
+{
+  color: #fcb500;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* Media Queries */
+
+.smallboimap
+{
+  display: none;
+}
+
+@media screen and (max-width:1407px)
+{
+  .head{display: none;}
+}
+
+@media screen and (max-width:1155px)
+{
+  img{display:none;}
+}
+
+@media screen and (max-width:984px)
+{
+  .map{display:none;}
+
+  .smallboimap
+  {
+    display:contents;
+  }
+}
+
+@media screen and (max-width:841px)
+{
+  .navvy li
+  {
+    display:block;
+  }
+}
+
+@media screen and (max-width:661px)
+{
+  .vid{display:none;}
+}
+
+@media screen and (max-width:583px)
+{
+  footer, .baits, .repair, .snacks, .columns, .locate{border-style: none;}
+}
+
+@media screen and (max-width:549px)
+{
+  .fb{display:none;}
+}
